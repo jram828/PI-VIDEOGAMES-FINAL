@@ -2,8 +2,8 @@
 import "../../App.css";
 import "./videogame.css";
 import { Link } from "react-router-dom";
-import { connect, useDispatch, useSelector } from "react-redux";
-import { getVideoGames, removeFav, addFav } from "../../redux/actions";
+import { useDispatch, useSelector } from "react-redux";
+import {removeFav, addFav } from "../../redux/actions";
 import { useEffect, useState } from "react";
 
 const Videogame = (props) => {

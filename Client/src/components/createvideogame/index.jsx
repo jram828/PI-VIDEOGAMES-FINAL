@@ -15,8 +15,6 @@ const CrearVideogame = ({ crearVideogame }) => {
     rating: "",
     genres: [],
   });
-
-  console.log('GEneros:', userDataCrear.genres)
   
   const [errors, setErrors] = useState({
     name: "Debe ingresar un nombre",
@@ -27,7 +25,7 @@ const CrearVideogame = ({ crearVideogame }) => {
     platforms: "Debe seleccionar al menos una plataforma",
     genres: "Debe seleccionar al menos un género",
   });
-  console.log('errores:',errors)
+  // console.log('errores:',errors)
   const handleChangeCrear = (e) => {
 
     if (e.target.parentNode.parentNode.parentNode.id === "genres") {
