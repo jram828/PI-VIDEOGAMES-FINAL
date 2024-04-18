@@ -1,0 +1,82 @@
+.divlanding {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(10px, auto);
+    align-content: center;
+    background-color:blueviolet;
+}
+
+.error2{
+   font-size: 100%;
+   color: rgb(0, 0, 0, 0)
+}
+.titulolanding {
+    grid-column: 1;
+    grid-row: 1;
+    align-content: center;
+    text-align: center;
+    /* background-color: blue;   */
+    font-size: 100%;
+    color: white;
+    font-weight: bold;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+.formlanding {
+    grid-column: 1;
+    grid-row: 2;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 15px;
+    grid-auto-rows: minmax(20px, auto);
+    align-content: center;
+    text-align: center;
+    padding: 10px;
+}
+
+.InputLogin {
+    grid-column: 1/4;
+    grid-row: 1;
+    align-content: center;
+    text-align: center;
+    /* background-color: red; */
+    font-size: 140%;
+}
+
+.label {
+    color: white;
+    font-weight: bold;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+.botoneslanding {
+    grid-column: 1/4;
+    grid-row: 2;
+    align-content: center;
+    text-align: center;
+    /* background-color: yellow; */
+}
+
+.botoneslanding > img{
+  margin-left: 70px;
+  margin-right: 70px;
+}
+
+.buttonLanding {
+  border-radius: 10%;
+  background-color: rgb(0,0,0,0);
+  cursor: pointer;
+  border-style: none;
+  height: 60%;
+   width: 25%;
+   margin-left: 50px;
+
+}
+.buttonLanding:hover {
+  -webkit-transform: rotateY(180deg);
+-webkit-transform-style: preserve-3d;
+transform: rotateY(180deg);
+transform-style: preserve-3d;
+}

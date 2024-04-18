@@ -1,0 +1,56 @@
+.detail{
+   border-radius: 5%;
+   font-size: 10px;
+   font-weight:normal;
+   background-color: black;
+   opacity: 0.9;
+   padding: 10px;
+   border-style: solid;
+   /* border-color: black; */
+   box-shadow: 15px 20px 25px orangered ;
+   width: 1250px;
+   height: 580px;
+       display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* grid-gap: 15px; */
+    grid-auto-rows: minmax(20px, auto);
+    align-content: center;
+    text-align: start;
+    color: black;
+   
+}
+
+.detail:hover{
+      transform: scale(1.1);
+      transition: 1s;
+   }
+
+.detail .photo{
+   width: 30%;
+   height: 30%;
+   border-radius: 70%;
+}
+
+.datos {
+    grid-column: 1/2;
+    grid-row: 1;
+    /* background-color:red; */
+    text-align:center;
+    padding: 10px;
+    font-size: 14px;
+}
+.descripcion {
+    grid-column: 2/3;
+    grid-row: 1;
+    /* background-color:red; */
+    text-align:justify;
+    padding: 10px;
+}
+
+.container{
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   font-size: small;
+   margin-top: 20px;
+}

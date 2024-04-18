@@ -1,0 +1,90 @@
+.titulo{
+  color: white;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+
+
+.genres{
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 5px;
+  grid-auto-rows: minmax(110px, auto);
+  align-content: center;
+  text-align: start;
+  background-color: rgb(87, 84, 87, 0.8);
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  font-size: 18px;
+  font-weight: bold;
+  color:white;
+  border: 2px solid black;
+  padding: 10px;
+  border-radius: 3%;  
+}
+
+.platforms{
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 5px;
+  grid-auto-rows: minmax(30px, auto);
+  align-content: center;
+  text-align: start;
+  background-color: rgb(87, 84, 87, 0.8);
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  font-size: 18px;
+  font-weight: bold;
+  color:white;
+  border: 2px solid black;
+  border-radius: 3%;  
+  padding: 10px;
+}
+.genres > div {
+  height: 20px;
+  width: 180px
+}
+
+.labelgenres{
+  color: white;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  font-size: 22px;
+  font-weight: bold;
+}
+/* .crear{
+  gap: 10px
+} */
+.inputcrear{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 5px;
+  grid-auto-rows: minmax(10px, auto);
+  background-color: rgb(87, 84, 87, 0.7);
+  color:white;
+  text-align: start;
+  border-radius: 3%;
+  border: 2px solid black;
+  padding: 5px;
+}
+
+
+
+.error{
+   font-size: 100%;
+   color: red
+}
+
+.labelcrear{
+   color: white;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  font-size: 18px;
+  font-weight: bold;
+  width: 10%;
+  margin-right: 10px;
+}
+
+.inputname{
+  margin-left: 30px;
+}

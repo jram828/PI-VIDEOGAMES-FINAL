@@ -1,0 +1,74 @@
+  .card:hover{
+      transform: scale(1.1);
+      transition: 1s;
+   }
+   
+.card{
+   display:flex;
+   border-radius: 10%;
+   /* align-items: center; */
+   vertical-align: middle;
+   place-items: center; 
+   border-style: solid;
+   border-color:white;
+   font-size: 16px;
+   background-color: black;
+   opacity: 0.9;
+   width: 250px;
+   height: 440px;
+   padding: 5px;
+   margin: 20px;
+   padding: 10px;
+   flex-direction: column;
+   position: relative;
+   align-items: center;
+   box-shadow: 15px 20px 25px orangered ;
+   
+}
+
+.card .photo{
+   width: 60%;
+   height: 150px;
+   border-radius: 70%;
+   
+}
+
+.card .boton2{
+   position: absolute;
+   top: 10px;
+   right: 10px;
+   cursor: pointer;
+}
+
+.container{
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   font-size: small;
+}
+
+.botonfav{
+  background-color: black;
+  opacity: 0.9;
+  border-style: none;
+  font-size: 160%;
+  cursor: pointer;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+  color: white;
+  font-weight: bold;
+   -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: black;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
